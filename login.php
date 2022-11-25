@@ -55,6 +55,7 @@ if($_SERVER["REQUEST_METHOD"]=="POST"){
         <a>Password</a><br>
         <input class="inputBox" type="password" name="password" id="password" required size="30"><br>
         <input type="submit"  name="submit" class="submitBtn" value="Login">
+        <a href="register.php">Register</a>
         </form>
     </div>
     </body>
