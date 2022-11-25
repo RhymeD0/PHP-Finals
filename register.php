@@ -69,6 +69,7 @@
                 $duration = $_REQUEST['duration'];
                 $proof = $_REQUEST['proof'];
 
+                $status = "Pending";
                 $count = '00001';
                 $M =  date("M");
                 $d = date("d");
@@ -83,7 +84,7 @@
                 
                 echo $id;
 
-                // $sqlINSERT = "INSERT INTO users VALUES ('$id', '$name', '$email', '$password', '$type', '$date', '$time', '$duration', '$proof')";
+                // $sqlINSERT = "INSERT INTO users VALUES ('$id', '$name', '$email', '$password', '$type', '$date', '$time', '$status', '$duration', '$proof')";
                 // if($password != $cpassword){
                 //     echo "<script type=\"text/javascript\"> alert('Error. Password Does not Match'); </script>";
                 // }else{
