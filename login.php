@@ -166,12 +166,8 @@ if($_SERVER["REQUEST_METHOD"]=="POST"){
     <div class="container">
         <form class="records-container" name="createAccountForm" action="login.php" method="post">
             <div class="heading-center">
-                <div class="row">
-                    <h1>USER ACCOUNT</h1>
-                </div>
-                <div class="row">
-                    <p class="heading-desc">Manage your account transactions and reservations </p>
-                </div>
+                <h1>USER ACCOUNT</h1>
+                <p class="heading-desc">Manage your account transactions and reservations </p>
             </div>
 
             <div class="textBox">
